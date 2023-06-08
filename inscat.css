@@ -1,0 +1,102 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #111;
+    border-radius: 5px;
+  }
+  
+  h1, h2, label {
+    color: #fff;
+  }
+  
+  .form-outline {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+  }
+  
+  .form-control:focus {
+    outline: none;
+  }
+  
+  .form-select {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #c10611;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  .form-select {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  .form-select::-ms-expand {
+    display: none;
+  }
+  
+  /* Style the dropdown arrow */
+  .form-select::after {
+    content: '\f078';
+    font-family: 'Font Awesome 6 Free';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #fff;
+    pointer-events: none;
+  }
+  
+  /* Style the dropdown options */
+  .form-select option {
+    background-color: #111;
+    color: #fff;
+  }
+  
